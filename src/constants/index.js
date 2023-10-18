@@ -136,7 +136,7 @@ import {
       company_name: "El Kafi Training ",
       icon: elkafi,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "September 2023 - Octobre 2023",
       points: [
         "Develop a cutting-edge online platform that bridges the gap between medical training and school support, providing accessible and high-quality learning experiences for all.",
         "Collaborating with EURL El Kafi and product managers to support users needs.",
@@ -194,6 +194,7 @@ import {
       ],
       image: kayakigroup,
       source_code_link: "https://github.com/Leyna911/kayaki.git",
+      project_link:'https://kayakrenti.netlify.app/'
     },
     {
       name: "EL KAFI TRAINING",
@@ -215,6 +216,7 @@ import {
       ],
       image: elkafigroup,
       source_code_link: "https://github.com/Leyna911/ELKAFI_Training-.git",
+      project_link:'https://elkafi-training.netlify.app/'
     },
     {
       name: "GYM RAT",
@@ -236,6 +238,7 @@ import {
       ],
       image: ecomgroup,
       source_code_link: "https://github.com/",
+      project_link:''
     },
   ];
   
