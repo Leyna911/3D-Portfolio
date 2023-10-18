@@ -119,6 +119,7 @@ import {
   
   const experiences = [
     {
+      id:1,
       title: "React.js Developer, ui/ux Designer and team leader",
       company_name: "multidisciplinary project at ESI SBA ",
       icon: sba,
@@ -132,6 +133,7 @@ import {
       ],
     },
     {
+      id:2,
       title: "Front-end Developer ui/ux Designer ",
       company_name: "El Kafi Training ",
       icon: elkafi,

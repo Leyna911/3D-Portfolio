@@ -14,11 +14,11 @@ const Hero = () => {
     <section className='relative w-full h-screen mx-auto'>
       <div className='flex  flex-row sm:flex-col gap-[150px]  '>
         <div className={` pl-[100px] absolute inset-0 top-[200px] max-w-7xl  flex flex-row items-start gap-5`}>
-            <div>
-              <h1 className={`${styles.heroHeadText} w-[700px] text-white`}>
+            <div className='md:w-[700px] w-[400px]'>
+              <h1 className={`${styles.heroHeadText}  text-white`}>
                 Front-End <span className='text-[#b02fb3]'>React</span> Developer.
               </h1>
-              <p className={`${styles.heroSubText} md:w-[700px] w-[400px] mt-2 text-white-100`} >
+              <p className={`${styles.heroSubText}  mt-2 text-white-100`} >
                 Hey👋, I'm Yousra Lina Boudchicha. A passionate Front-end React Developer based in Algeria  &#x1F4CD;  <br className='sm:block hidden' />
               </p>
             </div>
