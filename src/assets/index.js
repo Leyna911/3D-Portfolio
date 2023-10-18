@@ -30,9 +30,21 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import leyna from "./leyna.png"; 
+import sba from "./sba.png"
+import elkafi from "./elkafi.png";
+import elkafigroup from "./elkafigroup.png";
+import kayakigroup from "./kayakigroup.png";
+import ecomgroup from "./ecomgroup.png";
+
 export {
   logo,
+  ecomgroup,
   backend,
+  kayakigroup,
+  elkafigroup,
+  elkafi,
+  sba,
   creator,
   mobile,
   web,
@@ -48,6 +60,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  leyna,
   redux,
   tailwind,
   typescript,

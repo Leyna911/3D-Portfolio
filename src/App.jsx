@@ -7,17 +7,17 @@ function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat.bg-center ">
+        <div className="">
           <Navbar/>
           <Hero/>
         </div>
-        <About/>
+        <section id="about"><About/></section>
+        
         <Experience/>
         <Tech/>
-        <Works/>
-        <Feedbacks/>
+        <section id="work"> <Works/> </section>
         <div className="relative z-0">
-          <Contact/>
+          <section id="contact"><Contact/></section>
           <StarsCanvas/>
         </div>
         

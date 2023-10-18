@@ -1,0 +1,17 @@
+{
+    "short_name": "LiLy's-Dev",
+    "name": "My Awesome App",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "./favicon.ico",
+        "sizes": "64*64 32*32 24*24 16*16 ",
+        "type": "image/w_icon"
+      }
+    ]
+  }
+
+  

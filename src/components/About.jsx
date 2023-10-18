@@ -15,7 +15,7 @@ const ServiceCard = ({index,title,icon}) =>{
     <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -46,19 +46,19 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Introduction
+          ABOUT ME
         </p>
-        <h2 className={styles.sectionHeadText}>
-          Overview.
+        <h2 className={`${styles.sectionHeadText} md:w-[800px] `}>
+          A dedicated Front-end Developer based in Algeria &#x1F4CD;
         </h2>
       </motion.div>
 
       <motion.p 
         variants={fadeIn("","",0.1,1)}
-        className='mt-4 text-secondary text-[17-px] max-w-3xl leading-[30px]'
+        className='mt-4 text-white text-[17-px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam voluptate labore eveniet amet illum laborum deleniti voluptatibus, sint quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi commodi dolore quod, velit sapiente repellendus molestias earum quibusdam esse odio obcaecati fuga impedit ad optio maxime deserunt cumque aperiam soluta.
-      </motion.p>
+        As a junior Front-end Developer, I possess an impresive arsenal of skills in HTML, CSS, Javascript, ReactJs, ThreeJs, Tailwind.I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge developement tools and techniques. I am also a team player who thrives in leadership and collaborating with cross-functional teams to produce outstanding web applications. 
+        </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
